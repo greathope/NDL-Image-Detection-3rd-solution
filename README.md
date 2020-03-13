@@ -1,10 +1,12 @@
-# My machine 
+# 3rd place solution for [国立国会図書館の画像データレイアウト認識](https://signate.jp/competitions/218)
+
+## My machine 
   * Intel(R) Core(TM) i7-6850K CPU @ 3.60GHz
   * CUDA  10.1, python3.6.9, pytorch 1.3.1
   * 2 1080ti
   
 
-# Step 0: set up environment
+## Step 0: set up environment
 ```
 1. install anaconda
 2. conda create -n fuxian python=3.6.9
@@ -20,7 +22,7 @@
    python tools/library/prepare_testdataset_split.py
   ```
 
-# Step 2: inference 
+## Step 2: inference 
 ```
 1. bash predict.sh
 2. python tools/library/merge_bbox_gudian.py
@@ -28,7 +30,7 @@
 4. python tools/library/prepare_submit_split_sort.py
 ```
 * you can find the final json in `data/final_submit.json`
-# Step 3: retrain
+## Step 3: retrain
 ```
 bash data/download.sh
 python tools/library/prepare_dataset_split.py
