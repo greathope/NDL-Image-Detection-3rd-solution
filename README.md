@@ -6,7 +6,7 @@
   * 2 1080ti
   
 
-## Step 0: set up environment
+## Step 0: Set up environment
 ```
 1. install anaconda
 2. conda create -n fuxian python=3.6.9
@@ -16,13 +16,13 @@
 6. put all data under the directory data/, and unzip them
 ```
 
-# Step 1: prepare dataset
+## Step 1: Prepare dataset
 
   ```
    python tools/library/prepare_testdataset_split.py
   ```
 
-## Step 2: inference 
+## Step 2: Inference 
 ```
 1. bash predict.sh
 2. python tools/library/merge_bbox_gudian.py
@@ -30,7 +30,7 @@
 4. python tools/library/prepare_submit_split_sort.py
 ```
 * you can find the final json in `data/final_submit.json`
-## Step 3: retrain
+## Step 3: Retrain
 ```
 bash data/download.sh
 python tools/library/prepare_dataset_split.py
