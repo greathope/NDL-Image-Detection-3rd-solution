@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mmdet
+Version: 1.0rc1+unknown
+Summary: Open MMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: OpenMMLab
+Author-email: chenkaidev@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
